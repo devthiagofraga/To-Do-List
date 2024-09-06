@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>To do List</title>
 </head>
 <body>
+    <!-- Icone para mudar de tema -->
+    <nav>
+        <div class="dark-light" id="dark-light"></div>
+    </nav>
+
+    <!-- Local para inserir a tarefa a ser feita -->
+    <section class="section">
+        <h2>To Do List</h2>
+        <div class="todo">
+            <textarea name="textarea" id="insertTexto">Escreva a sua tarefa aqui!</textarea>
+            <button type="submit">Adicionar</button>
+        </div>
+
+        <!-- Tarefa concluida -->
+        <div class="conclusion">
+            <p id="todo-text">Esta é a tarefa a ser concluída.</p>
+            <p id="endWork">Esta é a tarefa feita.</p>
+        </div>
+    </section>
     
+    <script src="./app/scripts.js"></script>
 </body>
 </html>
