@@ -11,9 +11,7 @@
     --textD:#50fa7b;
     --concluido:#ff5555;
 }
-nav{
-    background-color: var(--light);
-}
+
 section{
     height: 100vh;
     background-color: var(--light);
@@ -24,10 +22,15 @@ section{
     align-items:center;
     justify-content: center;
 }
+h2{
+    padding: 20px 30px;
+}
 #insertTexto{
     width: 70vh;
     height: 5vh;
     text-transform: uppercase;
+    text-align: center;
+    border: #6272a4 solid;
 }
 .todo{
     display: flex;
@@ -46,11 +49,14 @@ button{
 button:hover{
     background-color: var(--textL);
     color: var(--light);
-    
 }
 .conclusion{
+    padding: 30px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    text
+    text-transform: uppercase;
+}
+#endWork{
+    text-decoration: line-through;
 }
